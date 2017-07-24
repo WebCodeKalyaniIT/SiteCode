@@ -27,7 +27,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | SAPHIRE Now</title>
+    <title>Kalyani IT | SAPHIRE Now</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -104,10 +104,10 @@ $(document).ready(function(){
 			</div>
 			<div class="col-md-12">
 				<p>
-				Thank you for the overwhelming response for Kalyani TECH & co-exhibiting Partners at SAPPHIRE NOW & ASUG Annual Conference
+				Thank you for the overwhelming response for Kalyani IT TECH & co-exhibiting Partners at SAPPHIRE NOW & ASUG Annual Conference
 Orlando, Florida, May 16-18, 2017
 <br><br>
-It was amazing to meet you at the Kalyani booth (#1387). Networking and discussing about new oppurtunities and exchanging ideas was exciting and made the conference a grand success. We would be soon posting our achievements and updates from the successful SAPPHIRE NOW conference for Kalyani Tech. Watch this space for more updates....				</p>
+It was amazing to meet you at the Kalyani IT booth (#1387). Networking and discussing about new oppurtunities and exchanging ideas was exciting and made the conference a grand success. We would be soon posting our achievements and updates from the successful SAPPHIRE NOW conference for Kalyani IT Tech. Watch this space for more updates....				</p>
 		</div>
 		
 		<div>

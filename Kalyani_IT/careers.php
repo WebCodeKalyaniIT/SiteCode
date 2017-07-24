@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Careers</title>
+    <title>Kalyani IT | Careers</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -89,14 +89,14 @@ $(document).ready(function(){
 					 
 					<div class="sh-strong"><strong>SAP (Senior) Consultants</strong></div>
 <br/>
-Kalyani Tech is currently seeking to recruit candidates who already have professional qualifications or experience in the 
+Kalyani IT Tech is currently seeking to recruit candidates who already have professional qualifications or experience in the 
 company's practice areas. Candidates should send their latest updated resume to the below mentioned 
 <br/><br/>
 <b>email ID :</b> <a href="mailto:careers@numerictech.com">careers@numerictech.com</a>
 <br/><br/>
 <div class="sh-strong"><strong>Other Services</strong></div>
 <br/>
-We are seeking to recruit Engineers and Consultants for our company's various other services enlisted. Kalyani Tech is profitable, dynamic and has a great working environment. Rewarding opportunity for hard work and dedication. Great opportunity to work with experienced minds and share the company's extensive knowledge base. Areas of interest include but not limited to Services enlisted. Interested candidates should send their latest updated resume` to the below mentioned 
+We are seeking to recruit Engineers and Consultants for our company's various other services enlisted. Kalyani IT Tech is profitable, dynamic and has a great working environment. Rewarding opportunity for hard work and dedication. Great opportunity to work with experienced minds and share the company's extensive knowledge base. Areas of interest include but not limited to Services enlisted. Interested candidates should send their latest updated resume` to the below mentioned 
 <br/><br/>
 <b>email ID :</b> <a href="mailto:careers@numerictech.com">careers@numerictech.com</a>
 					 </p>

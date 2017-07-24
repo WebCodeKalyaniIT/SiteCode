@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Advantage</title>
+    <title>Kalyani IT | Advantage</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -70,7 +70,7 @@ $(document).ready(function(){
         <li><span><span typeof="v:Breadcrumb">
 		<a href="index.php">Home</a> » <span rel="v:child" typeof="v:Breadcrumb">
 		<a href="about.php">About</a> » 
-		<span class="breadcrumb_last">Kalyani Advantage</span></span></span></span>
+		<span class="breadcrumb_last">Kalyani IT Advantage</span></span></span></span>
 		</li>
     </ol>
 	</div>
@@ -84,12 +84,12 @@ $(document).ready(function(){
                    
                         <!-- Project Details Go Here -->
                         <div class="col-md-12 ul-1" ><br>
-							<h3>Kalyani Advantage</h3> <br> 						
-							<p> <b>Kalyani Technologies: Enabling SAP, Empowering Businesses</b>
+							<h3>Kalyani IT Advantage</h3> <br> 						
+							<p> <b>Kalyani IT Technologies: Enabling SAP, Empowering Businesses</b>
 <br><br>
 The success of our clients and consultants is at the
 <br><br>
-heart of our company's value. At Kalyani, we approach each client engagement as long-term partnership. We strongly believe in establishing trusted long term relationships with both our clients and our associates. Our philosophy is, our client’s success is our very own success, and our consultants’ progress is our progress. We foster a relationship that helps support our clients’ teams with training and innovative cost effective ideas. As we continue to spearhead alongside our clients, our contract renewal rate with clients continues to grow over 90%. 
+heart of our company's value. At Kalyani IT, we approach each client engagement as long-term partnership. We strongly believe in establishing trusted long term relationships with both our clients and our associates. Our philosophy is, our client’s success is our very own success, and our consultants’ progress is our progress. We foster a relationship that helps support our clients’ teams with training and innovative cost effective ideas. As we continue to spearhead alongside our clients, our contract renewal rate with clients continues to grow over 90%. 
 <br><br>
 <b>YOUR STRENGTH, OUR PEOPLE</b>
 <br><br>
@@ -97,18 +97,18 @@ With over 300 consultants worldwide, including over 200 in US/Canada and 100 in 
 <br><br>
 <b>TRUSTED, TRANSPARENT, FLEXIBLE, FAST</b>
 <br><br>
-In this age of unpredictability, Kalyani is your trusted right hand partner. Kalyani's expert consultants are there to address your SAP needs, at
+In this age of unpredictability, Kalyani IT is your trusted right hand partner. Kalyani IT's expert consultants are there to address your SAP needs, at
 <br><br>
 the right time, the right way.
 <br><br>
  
 <b>PRICE, PERFORMANCE, CONSISTENLY DELIVERED</b>
 <br><br>
-To help maximize SAP offerings for our customers, Kalyani adapts to your budget and time constraints to deliver the best services and solutions in a cost effective manner.
+To help maximize SAP offerings for our customers, Kalyani IT adapts to your budget and time constraints to deliver the best services and solutions in a cost effective manner.
 <br><br>
 <b>EXTENSIVE NETWORK OF SEASONED CONSULTANTS</b>
 <br><br>
-Kalyani maintains a large pool of consulting resources that can be mobilized on short notice. Kalyani's methodology ensures that shadow resourcing across key areas is maintained as a contingency, mitigating the risk of unforeseen staff changes.
+Kalyani IT maintains a large pool of consulting resources that can be mobilized on short notice. Kalyani IT's methodology ensures that shadow resourcing across key areas is maintained as a contingency, mitigating the risk of unforeseen staff changes.
 
 <br><br>
 <b>U.S BASED COMPANY WITH GLOBAL DELIVERY CAPABILITY</b>
@@ -118,7 +118,7 @@ Our Global Delivery Model allows us to fulfill our client's financial and resour
 
 <b>FOCUSSED ON CLIENT DELIVERY AND PEOPLE EXCELLENCE</b>
 <br><br>
-Kalyani Technologies pursues excellence through continued investments in its people, tools, accelerators, thought leadership, alliances and infrastructure. We believe that each of these factors supports and ensures dependability and quality throughout our global practice, and delivers a higher level of customer satisfaction.
+Kalyani IT Technologies pursues excellence through continued investments in its people, tools, accelerators, thought leadership, alliances and infrastructure. We believe that each of these factors supports and ensures dependability and quality throughout our global practice, and delivers a higher level of customer satisfaction.
 							</p>
 						 </div>	
                        

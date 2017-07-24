@@ -27,7 +27,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Request Demo</title>
+    <title>Kalyani IT | Request Demo</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

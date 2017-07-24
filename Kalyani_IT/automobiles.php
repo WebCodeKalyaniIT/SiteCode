@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Automobiles</title>
+    <title>Kalyani IT | Automobiles</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -78,17 +78,17 @@ $(document).ready(function(){
 									<h3>AUTOMOBILES</h3> <br>
 									<img src="img/automobile.png">
 									 <div class="spacer-30"></div>
-									<h4 class="service-heading">Kalyani TECHNOLOGIES: EMPOWERING BUSINESS</h4>
-									<p>Kalyani is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+									<h4 class="service-heading">Kalyani IT TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+									<p>Kalyani IT is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
 									 <div class="spacer-20"></div>
 									<h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
-									<p>Kalyani has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+									<p>Kalyani IT has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
 									 <div class="spacer-20"></div>
 									<h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
-									<p>Kalyani maintains a large pool of consulting resources that can be mobilized on demand. Kalyani ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+									<p>Kalyani IT maintains a large pool of consulting resources that can be mobilized on demand. Kalyani IT ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
 									 <div class="spacer-20"></div>
 									<h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
-									<p>Kalyani maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+									<p>Kalyani IT maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
 							</div>
                             
                     </div>

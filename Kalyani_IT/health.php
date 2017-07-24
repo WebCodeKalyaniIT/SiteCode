@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Health</title>
+    <title>Kalyani IT | Health</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -78,11 +78,11 @@ $(document).ready(function(){
 								<h3>HEALTH</h3> <br>
 								<img src="img/health.png">
 								 <div class="spacer-30"></div>
-								<h4>Kalyani Technologies is a Global IT Service & Solutions Provider specializing in:</h4>
-								<p>Kalyani Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
-								<p>Kalyani is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Kalyani maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Kalyani delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
+								<h4>Kalyani IT Technologies is a Global IT Service & Solutions Provider specializing in:</h4>
+								<p>Kalyani IT Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
+								<p>Kalyani IT is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Kalyani IT maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Kalyani IT delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
 								<p>Some of our "niche" areas of expertise include an SAP Center of Excellence which includes top tier resources in the following disciplines of SAP: SAP HANA, SAP Business Objects, SAP Business Warehouse, SAP Business Intelligence, Enterprise Resource Planning(ERP), Enterprise Informational Management (EIM), Customer Resource Management (CRM), Human Capital Management (HCM) & Supply Chain Management (SCM)</p>
-								<p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Kalyani Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
+								<p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Kalyani IT Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
 								<p>We pride ourselves on providing the unique combination of Price, Performance & Quality better than anyone else - Mani Ranjendran President & CEO</p>
 							</div>
                            

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Contact</title>
+    <title>Kalyani IT | Contact</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -101,7 +101,7 @@ $(document).ready(function(){
 					
                 </div-->
                <div class="contactboxhead">Corporate HeadQuarters</div>
-                  <div style="margin:10px;"><I><B>Kalyani Tech</I></B><br />
+                  <div style="margin:10px;"><I><B>Kalyani IT Tech</I></B><br />
       4200 CANTERA DR SUITE 100, WARRENVILLE, IL 60555<br />
    <span>Email : </span><a href="#" style="color:#56c3f9">info@numerictech.com</a>
                     <br>Phone : +1 630.955.9060<br>

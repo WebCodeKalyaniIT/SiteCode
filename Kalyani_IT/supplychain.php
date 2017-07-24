@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Supply Chain </title>
+    <title>Kalyani IT | Supply Chain </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -99,14 +99,14 @@ $(document).ready(function(){
 The company is headquartered in Atlanta, GA. With offices in 9 countries and partners on all continents, it serves customers globally, including multi-channel retailers, consumer goods manufacturers, pharmaceutical companies, third-party logistics companies and wholesale distributors.
                 </p>    
 <br><br><br>                    
-<b>Innovative warehouse offerings and more for multiple markets <span style="color:#008cda">WORKING with Kalyani Technologies
+<b>Innovative warehouse offerings and more for multiple markets <span style="color:#008cda">WORKING with Kalyani IT Technologies
 </span>
 </b>
 <br><br>
                 <p>    
-Kalyani Technologies partner with Manhattan Associates to bring customers best-in-class solutions for supply chain package implementation and other complementary services that optimize return on investment and mitigate risk. Our business consulting teams leverage Manhattan’s innovative offerings to benefit customers in multi-channel retailing, consumer goods manufacturing, pharmaceuticals, third-party logistics and wholesale distribution industries.
+Kalyani IT Technologies partner with Manhattan Associates to bring customers best-in-class solutions for supply chain package implementation and other complementary services that optimize return on investment and mitigate risk. Our business consulting teams leverage Manhattan’s innovative offerings to benefit customers in multi-channel retailing, consumer goods manufacturing, pharmaceuticals, third-party logistics and wholesale distribution industries.
 From the start, we have collaborated with Manhattan on significant engagements with global brands. For example, we are executing a strategic project to support the roll-out of Manhattan’s warehouse management solution across all the client’s distribution centers in North America.
-In all engagements, Kalyani and Manhattan help our customers achieve long-term success through cost reduction and risk mitigation.
+In all engagements, Kalyani IT and Manhattan help our customers achieve long-term success through cost reduction and risk mitigation.
 				</p>
 				</div>
 				 

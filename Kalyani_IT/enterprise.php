@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Enterprise</title>
+    <title>Kalyani IT | Enterprise</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -86,7 +86,7 @@ $(document).ready(function(){
 								<h3>Enterprise Solutions(IT)</h3> <br>
 								<img src="img/enterprise.png">
 								 <div class="spacer-30"></div>
-								<p>Kalyani helps to integrate organizational systems which leads to improved data entry, an incorporation of best practices and a streamlined, better flow of information. The proper sharing of data and information across all departments of an organization will of course lead to improved customer satisfaction.</p>
+								<p>Kalyani IT helps to integrate organizational systems which leads to improved data entry, an incorporation of best practices and a streamlined, better flow of information. The proper sharing of data and information across all departments of an organization will of course lead to improved customer satisfaction.</p>
 								<p>As all employees have access to requisite information, the workflow improves, resulting in the on-time delivery of good and services to the customer base. With the incorporation of modules like SCM, CRM & other ERP tools, the organizations has better planning, follow-up and forecasting of requirements.</p>
 								 <div class="spacer-30"></div>
 								<h4 style="text-align:left;">SAP & ENTERPRISE SOLUTIONS</h4>

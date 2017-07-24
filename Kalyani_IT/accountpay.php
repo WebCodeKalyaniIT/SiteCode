@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Procurement And Accounts Payable</title>
+    <title>Kalyani IT | Procurement And Accounts Payable</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -112,7 +112,7 @@ $(document).ready(function(){
 						technical & functional assistance.
 						</li>
 						<li>
-						Kalyani does Historical assessment, used to detect and correct problems after the fact.
+						Kalyani IT does Historical assessment, used to detect and correct problems after the fact.
 						</li>
 						<li>
 							Our experience can overcome difficult and time consuming manual-review access risks.

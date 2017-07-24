@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | About</title>
+    <title>Kalyani IT | About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -101,9 +101,9 @@ of cost effective, quality performance. Our motto "Excellence in Price, Performa
 						<span class="fa-stack fa-4x">
 							<div><img src="img/overview_icon.png"></div>
 						</span>
-						<h4 class="service-heading">Kalyani Overview</h4>
+						<h4 class="service-heading">Kalyani IT Overview</h4>
 						<p class="text-muted">
-							Kalyani Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, 
+							Kalyani IT Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, 
 							Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best 
 							Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer 
 							partnerships are based on our understanding of client needs, while our timely, 
@@ -116,11 +116,11 @@ of cost effective, quality performance. Our motto "Excellence in Price, Performa
 						<span class="fa-stack fa-4x">
 							<div><img src="img/leadership_icon.png"></div>
 						</span>
-						<h4 class="service-heading">Kalyani Leadership</h4>
+						<h4 class="service-heading">Kalyani IT Leadership</h4>
 						<p class="text-muted">
 							If a leader has a strong vision, little set backs and obstacles will seem small and / or insignificant. They will work 
 							through them and persevere to the end, learning as they go. Vision helps leaders to persevere. 
-							At Kalyani we are lucky to have the most visionary leadership.
+							At Kalyani IT we are lucky to have the most visionary leadership.
 					 </p>
  					</div>
 				</a>
@@ -129,9 +129,9 @@ of cost effective, quality performance. Our motto "Excellence in Price, Performa
 						<span class="fa-stack fa-4x">
 							<div><img src="img/advantage_icon.png"></div>
 						</span>
-						<h4 class="service-heading">Kalyani Advantage</h4>
+						<h4 class="service-heading">Kalyani IT Advantage</h4>
 						<p class="text-muted">
-							"Our results were only possible because of Kalyani.. With any other tool our strategies wouldn't 
+							"Our results were only possible because of Kalyani IT.. With any other tool our strategies wouldn't 
 							have worked, because it wouldn't have been possible to attach NPS scores of individual users in 
 							the way that we needed." 
 <br/><br/>

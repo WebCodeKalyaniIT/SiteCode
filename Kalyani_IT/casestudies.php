@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Casestudies</title>
+    <title>Kalyani IT | Casestudies</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -75,25 +75,25 @@ $(document).ready(function(){
                     
                             <!-- Project Details Go Here -->
                             <div class="col-md-12"><br>
-								<h3>Kalyani Casestudy</h3><br> 
+								<h3>Kalyani IT Casestudy</h3><br> 
 								<img src="img/casestudy.png">
 								 <div class="spacer-30"></div>
 								<p><strong class="hd-size">Case Study - Major Steel Firm's Master Data Management Project 2015</strong></p>
 								<p>A global steel company wanted to implement SAP MDM as a global cornerstone for data normalization and control The initial rollout would cover 23 plants, 350,000 vendors, 1,000,000 materials and 1,500 buyers Connections would be built to multiple SRM/CLM systems via SAP PI Delivery of the project was time/date sensitive and had to be non disruptive to current operations</p>
 								<p><strong>The Competitor's Solution:</strong> 10+ Team Members with Limited MDM Experience, no Part Time Project Manager @ € 500,000</p>
-								<p><strong>The Kalyani Solution:</strong> 4 Team Members + Non-Billed Part Time Project Manager Highly - Experienced with MDM @ €165,000</p>
-								<p>Kalyani architected a solution that effectively utilized the client's existing Mainframe architecture while building a new solution template Kalyani's design delivered results approximately 10 times faster than the previous system and will support continued data growth Kalyani's implementation kept implementation costs under control by leveraging existing knowledge base which improved performanc</p>
-								<p>Kalyani won the business. The Project was completed in Europe and India to minimize the costs. The Project went live on time and on budget while viewed as being extremely successful by the organization's leadership./p>
-								<p>Kalyani has been retained to complete future phases of this highly complex, global, multi-country, multi-location project. Kalyani provided the design, implementation and support for this project.</p>
+								<p><strong>The Kalyani IT Solution:</strong> 4 Team Members + Non-Billed Part Time Project Manager Highly - Experienced with MDM @ €165,000</p>
+								<p>Kalyani IT architected a solution that effectively utilized the client's existing Mainframe architecture while building a new solution template Kalyani IT's design delivered results approximately 10 times faster than the previous system and will support continued data growth Kalyani IT's implementation kept implementation costs under control by leveraging existing knowledge base which improved performanc</p>
+								<p>Kalyani IT won the business. The Project was completed in Europe and India to minimize the costs. The Project went live on time and on budget while viewed as being extremely successful by the organization's leadership./p>
+								<p>Kalyani IT has been retained to complete future phases of this highly complex, global, multi-country, multi-location project. Kalyani IT provided the design, implementation and support for this project.</p>
 								<p><b>TOTAL IMPACT:</b> IMPROVED DATA INTEGRITY AT REDUCED COST</p>
 								<div class="spacer-20"></div>	
 								<p><strong class="hd-size">Case Study - Major Technology Firm's Integration Project - Ongoing</strong></p>
 								<p>A major technology company faced an ongoing challenge of finding qualified PM's, skilled architects and functional experts as it worked to expand its systems capacity and deliver new technologies to support a growing global footprint. </p>
 								<p>Managers faced a choice of delays from resource constraints when existing vendors were used or budget overruns with 'Big-5' resources were used. Low-cost service providers frequently could not deliver quality resources and were plagued with high turnover rates</p>
-								<p><strong>The Kalyani Solution:</strong> Utilize Global Network to provide experienced, ready on day one resources at competitive prices.</p>
-								<p>Kalyani leveraged its world-class talent network to deliver skilled resources with minimal disruption to the client's environment. Kalyani's model, ensured full cycle commitments from the resources to the direct benefit of the client. Kalyani's execution strategy ensured best in class value.</p>
-								<p>Kalyani resources are frequently selected over the competition in consideration of our high quality and overall value. Kalyani's Staffing Process has allowed us become the #1 provider of on-site SAP resources for the client. Kalyani's on-site team has grown considerably and are working on and leading some of the most complex and challenging projects. </p>
-								<p>Kalyani's resources are highly valued – 30% have been hired by the client in the past 3 years. Kalyani's Staffing Process has delivered tens of millions of dollars in savings over the entire length of the engagement.</p>
+								<p><strong>The Kalyani IT Solution:</strong> Utilize Global Network to provide experienced, ready on day one resources at competitive prices.</p>
+								<p>Kalyani IT leveraged its world-class talent network to deliver skilled resources with minimal disruption to the client's environment. Kalyani IT's model, ensured full cycle commitments from the resources to the direct benefit of the client. Kalyani IT's execution strategy ensured best in class value.</p>
+								<p>Kalyani IT resources are frequently selected over the competition in consideration of our high quality and overall value. Kalyani IT's Staffing Process has allowed us become the #1 provider of on-site SAP resources for the client. Kalyani IT's on-site team has grown considerably and are working on and leading some of the most complex and challenging projects. </p>
+								<p>Kalyani IT's resources are highly valued – 30% have been hired by the client in the past 3 years. Kalyani IT's Staffing Process has delivered tens of millions of dollars in savings over the entire length of the engagement.</p>
 								<p><b>TOTAL IMPACT:</b> MILLIONS SAVED IN CAPITAL EXPENDITURES</p>
 							</div>
                             <!--button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button-->

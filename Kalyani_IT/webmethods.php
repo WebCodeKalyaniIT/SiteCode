@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | WebMethods </title>
+    <title>Kalyani IT | WebMethods </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -90,7 +90,7 @@ $(document).ready(function(){
 				<h2>WebMethods</h2>
 				<br/><br/>
 	<p>
-Kalyani Technologies has partnered with Software AG to provide the most comprehensive Digital Business Platform encompassing enterprise application integration, B2B, business process management, SOA, operational intelligence, API management, in-memory data management, and analytics to meet rapid and challenging business demands. Our expertise in the cloud uniquely positions us to develop and architect right integration strategies in harmonizing on-premise middleware, 
+Kalyani IT Technologies has partnered with Software AG to provide the most comprehensive Digital Business Platform encompassing enterprise application integration, B2B, business process management, SOA, operational intelligence, API management, in-memory data management, and analytics to meet rapid and challenging business demands. Our expertise in the cloud uniquely positions us to develop and architect right integration strategies in harmonizing on-premise middleware, 
 cloud middleware, and cloud APIs to stay competitive in a global economy.
 	</p>
 	<br/><br/>

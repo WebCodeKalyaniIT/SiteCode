@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Devops</title>
+    <title>Kalyani IT | Devops</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -135,7 +135,7 @@ $(document).ready(function(){
 								<p>We will also need new tools that will allow us to continuously measure the performance of their environment and application.</p>  
 								<p>Generating, reading and analyzing system logs are extremely helpful to monitor an environment. But now that many environments have 100’s or 1000’s of servers, new tools like New Relic are required to make sense of all this data. This will allow us to know how the entire application is performing and help identify bottlenecks. </p>  
 								<p>But many companies do not know how to use these tools or do not have the skills to automate the software delivery process.</p>  
-								<p>Here come about Kalyani again.</p>  
+								<p>Here come about Kalyani IT again.</p>  
 					
 				</div>
 			</div>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | SAP</title>
+    <title>Kalyani IT | SAP</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -110,7 +110,7 @@ $(document).ready(function(){
 			<div class="col-md-12">
 				<p>
 					Take advantage of the latest in SAP® technology to drive improvement for your business. 
-					Kalyani Technologies is an innovative leader in SAP® solution offerings and an 
+					Kalyani IT Technologies is an innovative leader in SAP® solution offerings and an 
 					expert in leveraging them to drive business processes improvement and company growth.
 				</p>
 		</div>

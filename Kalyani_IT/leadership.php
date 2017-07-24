@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Leadership</title>
+    <title>Kalyani IT | Leadership</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -70,7 +70,7 @@ $(document).ready(function(){
         <li><span><span typeof="v:Breadcrumb">
 		<a href="index.php">Home</a> » <span rel="v:child" typeof="v:Breadcrumb">
 		<a href="about.php">About</a> » 
-		<span class="breadcrumb_last">Kalyani Leadership</span></span></span></span>
+		<span class="breadcrumb_last">Kalyani IT Leadership</span></span></span></span>
 		</li>
     </ol>
 	</div>
@@ -84,16 +84,16 @@ $(document).ready(function(){
                    
                         <!-- Project Details Go Here -->
                         <div class="col-md-12 ul-1" ><br>
-							<h3>Kalyani Leadership</h3> <br> 						
+							<h3>Kalyani IT Leadership</h3> <br> 						
 							<div class="col-md-6 ul-1" >
 								<p>
 								<b>Mani Rajendran: President & CEO</b>
 								<br/><br/>
-Mani Rajendran founded Kalyani Technologies in 1996 to help corporations handle the Y2K issues and also promote ERP based applications, particularly SAP. Today, Kalyani Technologies primarily focuses on ERP, Big Data, App Dev, Dashboards and Systems Integration. Mani brings 30+ years of direct experience in technlogy solutions, and is responsible for the vision and direction of Kalyani Technologies. His business acumen and strong affinity to build trusted relationships with his employees and clients has seen Kalyani flourish over the past 15 years. Prior to Kalyani, Mr. Rajendran was the Vice president for LaserTech, where he was responsible for the Business Operations and Delivery. Mani holds a Master's degree from Fort Hays State University
+Mani Rajendran founded Kalyani IT Technologies in 1996 to help corporations handle the Y2K issues and also promote ERP based applications, particularly SAP. Today, Kalyani IT Technologies primarily focuses on ERP, Big Data, App Dev, Dashboards and Systems Integration. Mani brings 30+ years of direct experience in technlogy solutions, and is responsible for the vision and direction of Kalyani IT Technologies. His business acumen and strong affinity to build trusted relationships with his employees and clients has seen Kalyani IT flourish over the past 15 years. Prior to Kalyani IT, Mr. Rajendran was the Vice president for LaserTech, where he was responsible for the Business Operations and Delivery. Mani holds a Master's degree from Fort Hays State University
 <br/><br/>
 <b>Sagar Pawar: Executive Director - Offshore Delivery</b>
 <br/><br/>
-Sagar, has over 16 years of Consulting, Management and SAP experience in the FMCG, Manufacturing, Retail and IT industries. Prior to joining the Kalyani Leadership Team as a Director (Offshore Delivery), Sagar has held the position of Senior Project Manager at Apple. He has successfully implemented multiple end-to end processes in global supply chain and Service Management (Customer Service) worldwide. He has effectively delivered and executed business critical solutions for multi-million dollar projects in US, Brazil, China, Mexico, Australia, New Zealand, UK, Germany, Singapore, Canada and Japan. Sagar has been recognized as a highly strategic, innovative and business oriented Leader with Functional and Technical Expertise. He holds SAP certification in Sales distribution and Material management module
+Sagar, has over 16 years of Consulting, Management and SAP experience in the FMCG, Manufacturing, Retail and IT industries. Prior to joining the Kalyani IT Leadership Team as a Director (Offshore Delivery), Sagar has held the position of Senior Project Manager at Apple. He has successfully implemented multiple end-to end processes in global supply chain and Service Management (Customer Service) worldwide. He has effectively delivered and executed business critical solutions for multi-million dollar projects in US, Brazil, China, Mexico, Australia, New Zealand, UK, Germany, Singapore, Canada and Japan. Sagar has been recognized as a highly strategic, innovative and business oriented Leader with Functional and Technical Expertise. He holds SAP certification in Sales distribution and Material management module
 <br/><br/>
 								</p>
 							</div>
@@ -102,11 +102,11 @@ Sagar, has over 16 years of Consulting, Management and SAP experience in the FMC
 								
 								<b>Rick Wright: Executive Vice President - Operations</b>
 <br/><br/>
-Rick Wright brings more than 15 years of ERP experience and expertise in large project execution for High-Tech and Retail industries. He has specialized experience with upgrades, OS/DB Migrations, large system performance, tax systems, real-estate management, and AP processes, among others. At Kalyani, Rick is responsible for theProject Office organization, monitoring and successful delivery of all Kalyani's projects. Rick was instrumental in building Kalyani's ASAP focused project implementation methodology based on industry best practices. Prior to joining Kalyani, Rick held senior management positions at Apple, Sony Electronics, Adobe, and several high-tech startups. Rick holds a degree in Business/Computer Science from UC San Diego.
+Rick Wright brings more than 15 years of ERP experience and expertise in large project execution for High-Tech and Retail industries. He has specialized experience with upgrades, OS/DB Migrations, large system performance, tax systems, real-estate management, and AP processes, among others. At Kalyani IT, Rick is responsible for theProject Office organization, monitoring and successful delivery of all Kalyani IT's projects. Rick was instrumental in building Kalyani IT's ASAP focused project implementation methodology based on industry best practices. Prior to joining Kalyani IT, Rick held senior management positions at Apple, Sony Electronics, Adobe, and several high-tech startups. Rick holds a degree in Business/Computer Science from UC San Diego.
 <br/><br/>
 <b>Vidya Pai: Human Resource Manager</b>
 <br/><br/>
-Vidya Pai is the Human Resource Manager for Kalyani. She brings many years of experience in office management, recruiting, scheduling, travel and human resources. Vidya provides mission critical services aligned with Kalyani's vast staffing practices, its visa and application processes and its certification requirements. Vidya obtained her Masters in Human Resources in India and has performed at the highest level in all areas of executive management for Kalyani for more than 14 years. Vidya, continues to learn new processes and technologies that allows Kalyani to remain a viable and flexible organization by keeping the organization compliant and ready to perform in a series of duties and requirements.
+Vidya Pai is the Human Resource Manager for Kalyani IT. She brings many years of experience in office management, recruiting, scheduling, travel and human resources. Vidya provides mission critical services aligned with Kalyani IT's vast staffing practices, its visa and application processes and its certification requirements. Vidya obtained her Masters in Human Resources in India and has performed at the highest level in all areas of executive management for Kalyani IT for more than 14 years. Vidya, continues to learn new processes and technologies that allows Kalyani IT to remain a viable and flexible organization by keeping the organization compliant and ready to perform in a series of duties and requirements.
 								
 								</p>
 							</div>

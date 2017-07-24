@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Kalyani | Basis And Security</title>
+    <title>Kalyani IT | Basis And Security</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -105,7 +105,7 @@ $(document).ready(function(){
 				</div>
 				<div class="col-md-6 col-sm-12">
 					 <p>
-					 Kalyani Tech covers the following SAP Basis area:
+					 Kalyani IT Tech covers the following SAP Basis area:
  <br/><br/>
 	<ul id="de-space">
 <li><i class="icon-check"></i>Certified Migrations ( O/s , DB & HANA)</li>
