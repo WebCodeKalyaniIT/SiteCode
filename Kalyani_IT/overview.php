@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric | Overview</title>
+    <title>Kalyani | Overview</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -70,7 +70,7 @@ $(document).ready(function(){
         <li><span><span typeof="v:Breadcrumb">
 		<a href="index.php">Home</a> » <span rel="v:child" typeof="v:Breadcrumb">
 		<a href="about.php">About</a> » 
-		<span class="breadcrumb_last">Numeric Overview</span></span></span></span>
+		<span class="breadcrumb_last">Kalyani Overview</span></span></span></span>
 		</li>
     </ol>
 	</div>
@@ -84,16 +84,16 @@ $(document).ready(function(){
                    
                         <!-- Project Details Go Here -->
                         <div class="col-md-12 ul-1" ><br>
-							<h3>Numeric Overview</h3> <br> 						
+							<h3>Kalyani Overview</h3> <br> 						
 							<p>
 							
-							Numeric Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.
+							Kalyani Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.
 <br/><br/>
-Numeric is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Numeric maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Numeric delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".
+Kalyani is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Kalyani maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Kalyani delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".
 <br/>
 Some of our "niche" areas of expertise include an SAP Center of Excellence which includes top tier resources in the following disciplines of SAP: SAP HANA, SAP Business Objects, SAP Business Warehouse, SAP Business Intelligence, Enterprise Resource Planning(ERP), Enterprise Informational Management (EIM), Customer Resource Management (CRM), Human Capital Management (HCM) & Supply Chain Management (SCM)
 <br/>
-We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Numeric Representative today to schedule a no-cost online assessment of your specialized requirements. 
+We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Kalyani Representative today to schedule a no-cost online assessment of your specialized requirements. 
 <br/><br/>
 We pride ourselves on providing the unique combination of Price, Performance & Quality better than anyone else - Mani Ranjendran President & CEO
 							</p>

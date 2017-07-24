@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric | Oracle</title>
+    <title>Kalyani | Oracle</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -89,16 +89,16 @@ $(document).ready(function(){
 				        <br/><br/>
 				        <div class="col-md-12">
 				            <p>
-                                <b> Known for our deep industry and product expertise, Numeric Tech drives standardization and accurate reporting using its global design processes. We help companies shift their focus from transaction processing and data discrepancies to making more informed decisions. This approach allows them to get the most return on their ERP investments.
+                                <b> Known for our deep industry and product expertise, Kalyani Tech drives standardization and accurate reporting using its global design processes. We help companies shift their focus from transaction processing and data discrepancies to making more informed decisions. This approach allows them to get the most return on their ERP investments.
                                 </b>
                             </p>
                             <br><br>
                             
 
                             <p>
-                    <b>HOW <span style="color:#008cda">Numeric Oracle Solutions</span> HELPS</b><br>
-                                Numeric Oracle Solutions delivers end-to-end services on Oracle applications across key areas like Consulting, Implementations and Rollouts, Upgrades and Migration, Application Management and Support and, Custom Developments. Our expertise spans the entire Oracle product spectrum including E-Business suite, JD Edwards, PeopleSoft, Siebel, Cloud Applications and Engineered Systems.
-                                The Oracle practice at Numeric has crafted a three-pillared differentiated positioning:<br><br>
+                    <b>HOW <span style="color:#008cda">Kalyani Oracle Solutions</span> HELPS</b><br>
+                                Kalyani Oracle Solutions delivers end-to-end services on Oracle applications across key areas like Consulting, Implementations and Rollouts, Upgrades and Migration, Application Management and Support and, Custom Developments. Our expertise spans the entire Oracle product spectrum including E-Business suite, JD Edwards, PeopleSoft, Siebel, Cloud Applications and Engineered Systems.
+                                The Oracle practice at Kalyani has crafted a three-pillared differentiated positioning:<br><br>
                             </p>
                             <ul>
 		                          <li><i class="icon-check"></i>Improving Business Velocity</li>

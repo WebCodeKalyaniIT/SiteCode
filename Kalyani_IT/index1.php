@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric</title>
+    <title>Kalyani</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -132,7 +132,7 @@
 				<div class="masthead">
 				<span>Best run businesses run SAP<sup>&#174;</sup></span>
 				<br/>
-				<span>and Numeric makes it run better</span>
+				<span>and Kalyani makes it run better</span>
 				</div>
                  
             </div>
@@ -215,7 +215,7 @@
 				</div>
 				<div class="col-md-6 txt_rgt">
 					<p>
-						"Our results were only possible because of Numeric.. With any other tool our strategies wouldn't
+						"Our results were only possible because of Kalyani.. With any other tool our strategies wouldn't
 						have worked, because it wouldn't have been possible to attach NPS scores of individual users in the 
 						way that we needed."
 						<br/><br/>
@@ -250,7 +250,7 @@
 							
 						</span>
 						<h4 class="service-heading">ENTERPRISE SOLUTIONS</h4>
-						<p class="text-muted">Numeric offers Global Enterprise Application Solutions including <b>SAP, ORACLE</b>,&nbsp SalesForce & others</p>
+						<p class="text-muted">Kalyani offers Global Enterprise Application Solutions including <b>SAP, ORACLE</b>,&nbsp SalesForce & others</p>
 						<!--<button type="submit" class="btn btn-sm n-lnbtn" href="enterprise.php">Learn More...</button>-->
 					</div>
 				</a>
@@ -273,7 +273,7 @@
 							 <!--i class="fa fa-tachometer" aria-hidden="true"></i-->
 						</span>
 						<h4 class="service-heading">DIGITAL DASHBOARD</h4>
-						<p class="text-muted">Numeric is the industry leader in <b>Dashboards</b> providing solutions in <b>Design Studio, Tableau, Lumira </b>& Qlikview.</p>
+						<p class="text-muted">Kalyani is the industry leader in <b>Dashboards</b> providing solutions in <b>Design Studio, Tableau, Lumira </b>& Qlikview.</p>
 					   <!--<button type="submit" class="btn btn-sm n-lnbtn" href="dashboards.php">Learn More...</button>-->
 					</div>
 				</a>
