@@ -1,0 +1,12 @@
+[31-May-2017 05:59:05 America/Denver] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home2/numerict/public_html/blogs/index.php on line 107
+[31-May-2017 05:59:05 America/Denver] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home2/numerict/public_html/blogs/index.php on line 107
+[31-May-2017 05:59:05 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home2/numerict/public_html/blogs/index.php on line 341
+[31-May-2017 05:59:05 America/Denver] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home2/numerict/public_html/blogs/index.php on line 341
+[31-May-2017 05:59:46 America/Denver] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home2/numerict/public_html/blogs/index.php on line 107
+[31-May-2017 05:59:46 America/Denver] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home2/numerict/public_html/blogs/index.php on line 107
+[31-May-2017 05:59:46 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home2/numerict/public_html/blogs/index.php on line 341
+[31-May-2017 05:59:46 America/Denver] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home2/numerict/public_html/blogs/index.php on line 341
+[31-May-2017 06:00:10 America/Denver] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home2/numerict/public_html/blogs/index.php on line 107
+[31-May-2017 06:00:10 America/Denver] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home2/numerict/public_html/blogs/index.php on line 107
+[31-May-2017 06:00:10 America/Denver] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home2/numerict/public_html/blogs/index.php on line 341
+[31-May-2017 06:00:10 America/Denver] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home2/numerict/public_html/blogs/index.php on line 341

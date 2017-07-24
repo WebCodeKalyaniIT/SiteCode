@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Numeric</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script>
+    function initialize()
+    {
+      var mapProp = {
+        center: new google.maps.LatLng(17.4401,78.3489),
+        zoom:7,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+
+    function loadScript()
+    {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "http://maps.googleapis.com/maps/api/js?key=&sensor=false&callback=initialize";
+      document.body.appendChild(script);
+    }
+
+    window.onload = loadScript;
+</script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script>
+var showDropDown = function(doc){
+var id = doc.id;
+$("#"+id+" .submenu").show();
+}
+var hideDropDown = function(doc){
+var id = doc.id;
+$("#"+id+" .submenu").hide();
+}
+</script>
+<style>
+
+.submenu {
+display: none;
+width:280px;
+}
+/*.mainmenu {
+float: left;
+margin: 1px;
+line-height: 30px;
+background-color: #0769AD;
+}
+.mainmenu a{
+margin: 10px;
+color: #FFFFFF;
+text-decoration: none;
+}*/
+.submenu ul{
+list-style: none;
+margin: 0;
+padding: 0px;
+}
+.submenu li {
+background-color: #000;
+/*margin:1px;*/
+line-height: 40px;	
+color:#ffff00;
+text-align:center;
+}
+.submenu li a{
+color: #ffff00;	
+text-decoration:none;
+text-align:center;
+}
+.navbar-nav > li {
+    float: left;
+    width: 100px !important;
+}
+
+</style>
+<script type="text/javascript">
+/*$("#Appdev").click(appdev);
+function appdev(){
+$("#develop1").addClass("active");
+$("#enterprise1").removeClass("active");
+}*/
+$(document).ready(function(){
+    $('#abtadv').click(function(event){
+        //remove all pre-existing active classes
+        $('#abtovr').removeClass('active');
+        $('#abtabt').addClass('active');
+		//$("#home").hide();
+		$("#menu1").addClass('tab-pane fade in active');
+        //add the active class to the link we clicked
+        //$(this).addClass('active');
+
+        //Load the content
+        //e.g.
+        //load the page that the link was pointing to
+        //$('#content').load($(this).find(a).attr('href'));      
+
+        //event.preventDefault();
+    });
+});
+</script>
+</head>
+
+<body id="page-top" class="index aboutus services industry">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="max-height:100px;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Numeric</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                   <li class="">
+                        <a href="index.html">Home</a>
+                    </li>
+                     <li id="popular3" onMouseOver="showDropDown(this)" onMouseOut="hideDropDown(this)">
+                        <a class="page-scroll" href="#about">About</a>
+						<div class="submenu">
+								<ul >
+									<li class="page-scroll"><a href="#abt1">OVERVIEW</a></li>
+									<li class="page-scroll" id="abtadv"><a href="#abt1">ADVANTAGE</a></li>
+									<li class="page-scroll"><a href="#abt1">LEADERSHIP</a></li>
+									<li class="page-scroll"><a href="#abt1">CASESTUDY</a></li>
+								</ul>
+						</div>
+                    </li>
+                     <li  id="popular" onMouseOver="showDropDown(this)" onMouseOut="hideDropDown(this)">
+                        <a class="page-scroll" href="#services">Services</a>
+							<div class="submenu">
+								<ul >
+									<li class="page-scroll"><a href="#serv1">ENTERPRISE SOLUTIONS</a></li>
+									<li class="page-scroll"><a href="#serv1">APPLICATION DEVELOPMENT</a></li>
+									<li class="page-scroll"><a href="#serv1">BIG-DATA SOLUTIONS</a></li>
+									<li class="page-scroll"><a href="#serv1">DIGITAL DASHBOARDS</a></li>
+									<li class="page-scroll"><a href="#serv1">E-COMMERCE SOLUTIONS</a></li>
+									<li class="page-scroll"><a href="#serv1">STAFF AUGUMENTATION</a></li>
+									
+								</ul>
+							</div>
+                    </li>
+                     
+                    <!--<li>
+                        <a class="page-scroll" href="#portfolio">Leader Ship</a>
+                    </li>-->
+                    <li class="mainmenu" id="popular1" onMouseOver="showDropDown(this)" onMouseOut="hideDropDown(this)">
+                        <a class="page-scroll" href="#portfolio">Industry</a>
+						<div class="submenu">
+								<ul >
+									<li class="page-scroll"><a href="#ind1">HEALTH</a></li>
+									<li class="page-scroll"><a href="#ind1">AUTOMOBILES</a></li>
+									<li class="page-scroll"><a href="#ind1">ONLINE SHOPPING</a></li>
+									<li class="page-scroll"><a href="#ind1">EDUCATION</a></li>
+									<li class="page-scroll"><a href="#ind1">ENTERTAINMENT</a></li>
+									<li class="page-scroll"><a href="#ind1">FINANCE</a></li>
+									<!--li ><a href="serv2">Service2</a></li>
+									<li ><a href="">Service3</a></li-->
+								</ul>
+							</div>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+    <!-- About Section Starts-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Numeric Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
+                    <p>Numeric is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Numeric maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Numeric delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
+                    <a href="#abt1"><button type="submit" class="btn btn-sm">Learn More...</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- About Section Ends-->
+	<!-- About Sub Section Starts -->
+    <section id="abt1">
+        <div class="container">
+            <div style="border-top:1px solid #ccc;border-bottom:1px solid #ccc;">
+                <ul class="nav nav-tabs nav-justified" style="margin:0px auto;">
+                  <li class="active" id="abtovr"><a data-toggle="tab" href="#home">Overview</a></li>
+                  <li><a data-toggle="tab" href="#menu1" id="abtabt">Advantage</a></li>
+                  <li><a data-toggle="tab" href="#menu2">Leadership</a></li>
+                  <li style="border-right:1px solid #ccc;"><a data-toggle="tab" href="#menu3">Casestudy</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+              <div id="home" class="tab-pane fade in active">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Overview</h3> <br>
+                    <p>Numeric Technologies is a Global IT Service & Solutions Provider specializing in:</p>
+                    <p>Numeric Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
+                    <p>Numeric is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Numeric maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Numeric delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
+                    <p>Some of our "niche" areas of expertise include an SAP Center of Excellence which includes top tier resources in the following disciplines of SAP: SAP HANA, SAP Business Objects, SAP Business Warehouse, SAP Business Intelligence, Enterprise Resource Planning(ERP), Enterprise Informational Management (EIM), Customer Resource Management (CRM), Human Capital Management (HCM) & Supply Chain Management (SCM)</p>
+                    <p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Numeric Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
+                    <p>We pride ourselves on providing the unique combination of Price, Performance & Quality better than anyone else - Mani Ranjendran President & CEO</p>
+                </div>
+                
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3> <br>
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Leadership</h3><br> 
+                    <h4 class="service-heading">Mani Rajendran: President & CEO</h4>
+                    <p>Mani Rajendran founded Numeric Technologies in 1996 to help corporations handle the Y2K issues and also promote ERP based applications, particularly SAP. Today, Numeric Technologies primarily focuses on ERP, Big Data, App Dev, Dashboards and Systems Integration. Mani brings 30+ years of direct experience in technlogy solutions, and is responsible for the vision and direction of Numeric Technologies. His business acumen and strong affinity to build trusted relationships with his employees and clients has seen Numeric flourish over the past 15 years. Prior to Numeric, Mr. Rajendran was the Vice president for LaserTech, where he was responsible for the Business Operations and Delivery. Mani holds a Master's degree from Fort Hays State University</p>
+                    <h4 class="service-heading">Surya Kotha: Executive Vice President</h4>
+                    <p>With 15 years of enriched experience in the ERP ecosystem, Surya Kotha heads Client Engagement at Numeric Technologies. Surya brings exceptional experience in defining our great value proposition and delivering ERP solutions for quick ROI. Surya has built various SAP custom component products and is a part of many SAP innovation product ideas with various senior executives in the SAP Organization. He is consistently creating ideas in building Rapid Deployment Solutions (RDS) and go-to-market strategies for SAP products. Surya is also actively involved in charitable organizations that improve education and self-empowerment. Surya holds SAP Certifications in multiple technical areas such as ABAP, XI/PI, BI, SAP Connectors, Workflow, Upgrade, ASAP and functional areas like SD, PM, FI, MM, PLM, CRM.</p>
+                    <h4 class="service-heading">Sagar Pawar: Executive Director - Offshore Delivery</h4>
+                    <p>Sagar, has over 16 years of Consulting, Management and SAP experience in the FMCG, Manufacturing, Retail and IT industries. Prior to joining the Numeric Leadership Team as a Director (Offshore Delivery), Sagar has held the position of Senior Project Manager at Apple. He has successfully implemented multiple end-to end processes in global supply chain and Service Management (Customer Service) worldwide. He has effectively delivered and executed business critical solutions for multi-million dollar projects in US, Brazil, China, Mexico, Australia, New Zealand, UK, Germany, Singapore, Canada and Japan. Sagar has been recognized as a highly strategic, innovative and business oriented Leader with Functional and Technical Expertise. He holds SAP certification in Sales distribution and Material management module</p>
+                    <h4 class="service-heading">Allen Gray: Advisor to Numeric Technologies</h4>
+                    <p>Mr. Gray is the President/CEO of the ASG Group The ASG Group is the holding company for several organizations for which Mr. Gray is either a majority or minority shareholder. These organizations provide consulting services across a diverse range of industries. Prior to his current role, Mr. Gray served a Director of Supplier Diversity and Manager of Purchasing Systems and Operation Specialist for Navistar International. Prior to that, Mr. Gray was the Purchasing Manager for Navistar International and also performed in the role of Director of Operations for Assembly & Machining. Mr. Gray brings extensive knowledge in the manufacturing and supplier diversity areas to Numeric as a member of our Advisory Council.</p>
+                </div>
+              </div>
+              <div id="menu3" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3><br> 
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- About Sub Section Ends -->
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           
+                        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">ENTERPRISE SOLUTIONS</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="serv1"><button type="submit" class="btn btn-sm">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">APPLICATION DEVELOPMENT</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#serv1"><button type="submit" class="btn btn-sm" id="Appdev">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                     <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">BIG-DATA SOLUTIONS</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#serv1"><button type="submit" class="btn btn-sm">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                       <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                         <i class="fa fa-tachometer fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">DIGITAL DASHBOARD</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#serv1"><button type="submit" class="btn btn-sm">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-COMMERCE SOLUTIONS</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#serv1"><button type="submit" class="btn btn-sm">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                     <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">STAFF AUGMENTATION</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#serv1"><button type="submit" class="btn btn-sm">Learn More...</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Services Section End -->
+    <!-- Services1 Section -->
+    <section  id="serv1" >
+        <div class="container">
+            <div style="border-top:1px solid #ccc;border-bottom:1px solid #ccc;">
+                <ul class="nav nav-tabs nav-justified" style="margin:0px auto;">
+                  <li id="enterprise1" class="active"><a data-toggle="tab" href="#home">ENTERPRISE SOLUTIONS</a></li>
+                  <li id="develop1"><a data-toggle="tab" href="#menu1">APPLICATION DEVELOPMENT</a></li>
+                  <li><a data-toggle="tab" href="#menu2">BIG-DATA SOLUTIONS</a></li>
+                    <li><a data-toggle="tab" href="#menu3">DIGITAL DASHBOARDS</a></li>
+                  <li><a data-toggle="tab" href="#menu4">E-COMMERCE SOLUTIONS</a></li>
+                  <li style="border-right:1px solid #ccc;"><a data-toggle="tab" href="#menu5">STAFF AUGMENTATION</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+              <div id="home" class="tab-pane fade in active">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Overview</h3> <br>
+                    <p>Numeric Technologies is a Global IT Service & Solutions Provider specializing in:</p>
+                    <p>Numeric Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
+                    <p>Numeric is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Numeric maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Numeric delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
+                    <p>Some of our "niche" areas of expertise include an SAP Center of Excellence which includes top tier resources in the following disciplines of SAP: SAP HANA, SAP Business Objects, SAP Business Warehouse, SAP Business Intelligence, Enterprise Resource Planning(ERP), Enterprise Informational Management (EIM), Customer Resource Management (CRM), Human Capital Management (HCM) & Supply Chain Management (SCM)</p>
+                    <p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Numeric Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
+                    <p>We pride ourselves on providing the unique combination of Price, Performance & Quality better than anyone else - Mani Ranjendran President & CEO</p>
+                </div>
+                
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3> <br>
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Leadership</h3><br> 
+                    <h4 class="service-heading">Mani Rajendran: President & CEO</h4>
+                    <p>Mani Rajendran founded Numeric Technologies in 1996 to help corporations handle the Y2K issues and also promote ERP based applications, particularly SAP. Today, Numeric Technologies primarily focuses on ERP, Big Data, App Dev, Dashboards and Systems Integration. Mani brings 30+ years of direct experience in technlogy solutions, and is responsible for the vision and direction of Numeric Technologies. His business acumen and strong affinity to build trusted relationships with his employees and clients has seen Numeric flourish over the past 15 years. Prior to Numeric, Mr. Rajendran was the Vice president for LaserTech, where he was responsible for the Business Operations and Delivery. Mani holds a Master's degree from Fort Hays State University</p>
+                    <h4 class="service-heading">Surya Kotha: Executive Vice President</h4>
+                    <p>With 15 years of enriched experience in the ERP ecosystem, Surya Kotha heads Client Engagement at Numeric Technologies. Surya brings exceptional experience in defining our great value proposition and delivering ERP solutions for quick ROI. Surya has built various SAP custom component products and is a part of many SAP innovation product ideas with various senior executives in the SAP Organization. He is consistently creating ideas in building Rapid Deployment Solutions (RDS) and go-to-market strategies for SAP products. Surya is also actively involved in charitable organizations that improve education and self-empowerment. Surya holds SAP Certifications in multiple technical areas such as ABAP, XI/PI, BI, SAP Connectors, Workflow, Upgrade, ASAP and functional areas like SD, PM, FI, MM, PLM, CRM.</p>
+                    <h4 class="service-heading">Sagar Pawar: Executive Director - Offshore Delivery</h4>
+                    <p>Sagar, has over 16 years of Consulting, Management and SAP experience in the FMCG, Manufacturing, Retail and IT industries. Prior to joining the Numeric Leadership Team as a Director (Offshore Delivery), Sagar has held the position of Senior Project Manager at Apple. He has successfully implemented multiple end-to end processes in global supply chain and Service Management (Customer Service) worldwide. He has effectively delivered and executed business critical solutions for multi-million dollar projects in US, Brazil, China, Mexico, Australia, New Zealand, UK, Germany, Singapore, Canada and Japan. Sagar has been recognized as a highly strategic, innovative and business oriented Leader with Functional and Technical Expertise. He holds SAP certification in Sales distribution and Material management module</p>
+                    <h4 class="service-heading">Allen Gray: Advisor to Numeric Technologies</h4>
+                    <p>Mr. Gray is the President/CEO of the ASG Group The ASG Group is the holding company for several organizations for which Mr. Gray is either a majority or minority shareholder. These organizations provide consulting services across a diverse range of industries. Prior to his current role, Mr. Gray served a Director of Supplier Diversity and Manager of Purchasing Systems and Operation Specialist for Navistar International. Prior to that, Mr. Gray was the Purchasing Manager for Navistar International and also performed in the role of Director of Operations for Assembly & Machining. Mr. Gray brings extensive knowledge in the manufacturing and supplier diversity areas to Numeric as a member of our Advisory Council.</p>
+                </div>
+              </div>
+              <div id="menu3" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3><br> 
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+			  <div id="menu4" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3><br> 
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+			  <div id="menu5" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3><br> 
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    
+ <!-- Services1 Section End-->
+    
+<!---Industries--->
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Industries</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-hospital-o fa-stack-2x text-primary"></i>
+                        
+                    </span>
+                    <h4 class="service-heading">Health</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#ind1"><button type="submit" class="btn btn-xm" href="industry.html">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-car fa-stack-2x text-primary"></i>
+                    </span>
+                    <h4 class="service-heading">Automobiles</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#ind1"><button type="submit" class="btn btn-xm" href="industry.html">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                     <span class="fa-stack fa-4x">
+                        <i class="fa fa-shopping-cart fa-stack-2x text-primary"></i>
+                    </span>
+                    <h4 class="service-heading">Online Shopping</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#ind1"><button type="submit" class="btn btn-xm" href="industry.html">Learn More...</button></a>
+                </div>
+                 <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-graduation-cap fa-stack-2x text-primary"></i>
+                    </span>
+                    <h4 class="service-heading">Education</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                     <a href="#ind1"><button type="submit" class="btn btn-xm" href="industry.html">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-film fa-stack-2x text-primary"></i>
+                    </span>
+                    <h4 class="service-heading">Entertainment</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#ind1"> <button type="submit" class="btn btn-xm">Learn More...</button></a>
+                </div>
+                <div class="col-md-4">
+                     <span class="fa-stack fa-4x">
+                        <i class="fa fa-list-alt fa-stack-2x text-primary"></i>
+                    </span>
+                    <h4 class="service-heading">Finance</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <a href="#ind1"><button type="submit" class="btn btn-xm">Learn More...</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Industries end--->
+	<!----Industries Sub Section Start---->
+	<!-- Industries Section -->
+    <section  id="ind1">
+        <div class="container">
+            <div style="border-top:1px solid #ccc;border-bottom:1px solid #ccc;">
+                <ul class="nav nav-tabs nav-justified" style="margin:0px auto;">
+                  <li class="active"><a data-toggle="tab" href="#home">Health</a></li>
+                  <li><a data-toggle="tab" href="#menu1">Automobiles</a></li>
+                  <li><a data-toggle="tab" href="#menu2">Online Shopping</a></li>
+                  <li><a data-toggle="tab" href="#menu2">Education</a></li>
+                  <li><a data-toggle="tab" href="#menu2">Entertainment</a></li>
+                  <li style="border-right:1px solid #ccc;"><a data-toggle="tab" href="#menu3">Finance</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+              <div id="home" class="tab-pane fade in active">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Overview</h3> <br>
+                    <p>Numeric Technologies is a Global IT Service & Solutions Provider specializing in:</p>
+                    <p>Numeric Technologies provides Enterprise Solutions with a prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
+                    <p>Numeric is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Numeric maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Numeric delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
+                    <p>Some of our "niche" areas of expertise include an SAP Center of Excellence which includes top tier resources in the following disciplines of SAP: SAP HANA, SAP Business Objects, SAP Business Warehouse, SAP Business Intelligence, Enterprise Resource Planning(ERP), Enterprise Informational Management (EIM), Customer Resource Management (CRM), Human Capital Management (HCM) & Supply Chain Management (SCM)</p>
+                    <p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Numeric Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
+                    <p>We pride ourselves on providing the unique combination of Price, Performance & Quality better than anyone else - Mani Ranjendran President & CEO</p>
+                </div>
+                
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3> <br>
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Leadership</h3><br> 
+                    <h4 class="service-heading">Mani Rajendran: President & CEO</h4>
+                    <p>Mani Rajendran founded Numeric Technologies in 1996 to help corporations handle the Y2K issues and also promote ERP based applications, particularly SAP. Today, Numeric Technologies primarily focuses on ERP, Big Data, App Dev, Dashboards and Systems Integration. Mani brings 30+ years of direct experience in technlogy solutions, and is responsible for the vision and direction of Numeric Technologies. His business acumen and strong affinity to build trusted relationships with his employees and clients has seen Numeric flourish over the past 15 years. Prior to Numeric, Mr. Rajendran was the Vice president for LaserTech, where he was responsible for the Business Operations and Delivery. Mani holds a Master's degree from Fort Hays State University</p>
+                    <h4 class="service-heading">Surya Kotha: Executive Vice President</h4>
+                    <p>With 15 years of enriched experience in the ERP ecosystem, Surya Kotha heads Client Engagement at Numeric Technologies. Surya brings exceptional experience in defining our great value proposition and delivering ERP solutions for quick ROI. Surya has built various SAP custom component products and is a part of many SAP innovation product ideas with various senior executives in the SAP Organization. He is consistently creating ideas in building Rapid Deployment Solutions (RDS) and go-to-market strategies for SAP products. Surya is also actively involved in charitable organizations that improve education and self-empowerment. Surya holds SAP Certifications in multiple technical areas such as ABAP, XI/PI, BI, SAP Connectors, Workflow, Upgrade, ASAP and functional areas like SD, PM, FI, MM, PLM, CRM.</p>
+                    <h4 class="service-heading">Sagar Pawar: Executive Director - Offshore Delivery</h4>
+                    <p>Sagar, has over 16 years of Consulting, Management and SAP experience in the FMCG, Manufacturing, Retail and IT industries. Prior to joining the Numeric Leadership Team as a Director (Offshore Delivery), Sagar has held the position of Senior Project Manager at Apple. He has successfully implemented multiple end-to end processes in global supply chain and Service Management (Customer Service) worldwide. He has effectively delivered and executed business critical solutions for multi-million dollar projects in US, Brazil, China, Mexico, Australia, New Zealand, UK, Germany, Singapore, Canada and Japan. Sagar has been recognized as a highly strategic, innovative and business oriented Leader with Functional and Technical Expertise. He holds SAP certification in Sales distribution and Material management module</p>
+                    <h4 class="service-heading">Allen Gray: Advisor to Numeric Technologies</h4>
+                    <p>Mr. Gray is the President/CEO of the ASG Group The ASG Group is the holding company for several organizations for which Mr. Gray is either a majority or minority shareholder. These organizations provide consulting services across a diverse range of industries. Prior to his current role, Mr. Gray served a Director of Supplier Diversity and Manager of Purchasing Systems and Operation Specialist for Navistar International. Prior to that, Mr. Gray was the Purchasing Manager for Navistar International and also performed in the role of Director of Operations for Assembly & Machining. Mr. Gray brings extensive knowledge in the manufacturing and supplier diversity areas to Numeric as a member of our Advisory Council.</p>
+                </div>
+              </div>
+              <div id="menu3" class="tab-pane fade">
+                <div class="col-md-12"><br>
+                    <h3>Numeric Advantage</h3><br> 
+                    <h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+                    <p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+                    <h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
+                    <p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+                    <h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
+                    <p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+                    <h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
+                    <p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+	<!----Industries sub section ends---->
+
+    
+   
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9"><div id="googleMap" style="width:100%;height:400px;"></div></div>
+                <div class="col-md-3">
+                    <h5>4200 CANTERA DR SUITE 100</h5>
+                    <h5>WARRENVILLE, IL 60555</h5>
+                    <p>Telephone:+1 630.955.9060</p>
+                    <p>FAX:+1 630 604.2006</p>
+                    <p><a href="">www.numerictech.com</a></p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Heading</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
