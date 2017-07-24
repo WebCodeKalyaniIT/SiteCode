@@ -27,7 +27,7 @@
                         <li class="social-face scl-fb"><a href="https://www.facebook.com/numerictech">
 						<i class="fa fa-facebook icon-face"></i></a>
                         </li>
-                        <li class="social-lin scl-in"><a href="https://www.linkedin.com/in/numeric-technologies-inc-2551a538/">
+                        <li class="social-lin scl-in"><a href="https://www.linkedin.com/in/Kalyani-technologies-inc-2551a538/">
 						<i class="fa fa-linkedin icon-in"></i></a>
                         </li>
 						<li class="social-g scl-in"><a href="https://plus.google.com/107356841950359102135">
@@ -49,8 +49,8 @@
   <!-- Modal content -->
   <div class="career-modal-content">
     <span class="close">&times;</span>
-    <h3>Numeric Technologies Inc has openings for the positions</h3>
-	 <h5>Numeric Technologies Inc has openings for the positions</h5>
+    <h3>Kalyani Technologies Inc has openings for the positions</h3>
+	 <h5>Kalyani Technologies Inc has openings for the positions</h5>
 	 <p>Senior Software Engineer/Linux (NUM1631)with Bachelor's degree in ComputerScience, Engineering(any),Technology, Any Analytical Science or related and5 yrs of exp. to design, develop, implement ,troubleshoot application andsystem level software in a variety of programming languages. Deploy andmanage VMware ESX Server Farms. Create Windows, OEL Linux OStemplates and images with necessary pre-requisite packages and manage Linux servers.</p>
      <p>Design, document programs and system implementation for all Informaticaprograms. Interacting with all application owners to understand the risk,dependencies in migrate the application from shared infrastructure todedicate.</p>
      <p>Software Engineer (NUM1632)with Master's degree in Computer Science,Engineering(any),Technology, Any Analytical Science or related to providethe top management and end users, a fully functional data warehouse for eachof the business segments separately and as per the user requirements.Develop the reporting system using Hyperion Planning, Essbase and Analyzer.Design, develop, implement, troubleshoot application and system levelsoftware using programming languages including Java, Visual Basic, Essbaseand analyze user needs and develop software solutions with aim of optimizingoperational efficiency.</p>

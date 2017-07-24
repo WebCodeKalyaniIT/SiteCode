@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric | Finance</title>
+    <title>Kalyani | Finance</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -78,16 +78,16 @@ $(document).ready(function(){
 								<h3>FINANCE</h3><br> 
 								<img src="img/finance.png">	
 								<div class="spacer-30"></div>
-								<h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
-								<p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+								<h4 class="service-heading">Kalyani TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+								<p>Kalyani is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
 								<div class="spacer-20"></div>
 								<h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
 							
 								<h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
-								<p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+								<p>Kalyani maintains a large pool of consulting resources that can be mobilized on demand. Kalyani ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
 								<div class="spacer-20"></div>
 								<h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
-								<p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+								<p>Kalyani maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
 							</div>
                            
                     </div>

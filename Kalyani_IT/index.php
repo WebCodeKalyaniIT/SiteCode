@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric</title>
+    <title>Kalyani</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -132,7 +132,7 @@
 				<div class="masthead">
 				<span>Best run businesses run SAP<sup>&#174;</sup></span>
 				<br/>
-				<span>Numeric makes it run better!</span>
+				<span>Kalyani makes it run better!</span>
 				</div>
                  </div>
             </div>
@@ -228,7 +228,7 @@
 				</div>
 				<div class="col-md-6 txt_rgt">
 					<p>
-						"Numeric technologies implementation of Solution to Our Business is extremely competent and then beat our prior partner performance with a 49% increase in revenue. The speed and ease of implementation, coupled with their ownership of the project, delivering timely integration and stellar results. I am very excited to continue working with them."
+						"Kalyani technologies implementation of Solution to Our Business is extremely competent and then beat our prior partner performance with a 49% increase in revenue. The speed and ease of implementation, coupled with their ownership of the project, delivering timely integration and stellar results. I am very excited to continue working with them."
 						<br/><br/>
 						<!--b>Guillaume Cabane</b--><br/>
 						Head of Growth Marketing, Manufacturing.
@@ -261,7 +261,7 @@
 							
 						</span>
 						<h4 class="service-heading">ENTERPRISE SOLUTIONS</h4>
-						<p class="text-muted">Numeric offers Global Enterprise Application Solutions including <b>SAP, ORACLE</b> & others</p>
+						<p class="text-muted">Kalyani offers Global Enterprise Application Solutions including <b>SAP, ORACLE</b> & others</p>
 						<!--<button type="submit" class="btn btn-sm n-lnbtn" href="enterprise.php">Learn More...</button>-->
 					</div>
 				</a>
@@ -272,7 +272,7 @@
 							<div><img src="img/icon-2.png"></div>
 						</span>
 						<h4 class="service-heading">SAP</h4>
-						<p class="text-muted">“Take Advantage Of The Latest In SAP® Technology To Drive Improvement For Your Business. Numeric Technologies Is An Innovative Leader In SAP® Solution Offerings And An Expert In Leveraging Them To Drive Business Processes Improvement And Company Growth.”</p>
+						<p class="text-muted">“Take Advantage Of The Latest In SAP® Technology To Drive Improvement For Your Business. Kalyani Technologies Is An Innovative Leader In SAP® Solution Offerings And An Expert In Leveraging Them To Drive Business Processes Improvement And Company Growth.”</p>
 					  <!--<button type="submit" class="btn btn-sm n-lnbtn"  href="sap.php">Learn More...</button>-->
 					</div>
 				</a>
@@ -284,7 +284,7 @@
 							 <!--i class="fa fa-tachometer" aria-hidden="true"></i-->
 						</span>
 						<h4 class="service-heading">DIGITAL DASHBOARD</h4>
-						<p class="text-muted">Numeric is the industry leader in <b>Dashboards</b> providing solutions in <b>Design Studio, Tableau, Lumira </b>& Qlikview.</p>
+						<p class="text-muted">Kalyani is the industry leader in <b>Dashboards</b> providing solutions in <b>Design Studio, Tableau, Lumira </b>& Qlikview.</p>
 					   <!--<button type="submit" class="btn btn-sm n-lnbtn" href="dashboards.php">Learn More...</button>-->
 					</div>
 				</a>
@@ -323,7 +323,7 @@
 					
                 </div-->
                <div class="contactboxhead">Corporate HeadQuarters</div>
-<div style="margin:10px;"><I><B>Numeric Tech</I></B><br />
+<div style="margin:10px;"><I><B>Kalyani Tech</I></B><br />
       4200 CANTERA DR SUITE 100, WARRENVILLE, IL 60555<br />
    <span>Email : </span><a href="#" style="color:#56c3f9">info@numerictech.com</a>
                     <br>Phone : +1 630.955.9060<br>

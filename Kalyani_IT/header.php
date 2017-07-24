@@ -79,7 +79,7 @@
               <a href="https://www.facebook.com/numerictech/" target="_blank"><i class="fa fa-facebook"></i></a>
             </li>
             <li class="linkedin">
-              <a href="https://www.linkedin.com/in/numeric-technologies-inc-2551a538/" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/Kalyani-technologies-inc-2551a538/" target="_blank"><i class="fa fa-linkedin"></i></a>
             </li>
 			<li class="google">
               <a href="https://plus.google.com/107356841950359102135" target="_blank"><i class="fa fa-google"></i></a>
