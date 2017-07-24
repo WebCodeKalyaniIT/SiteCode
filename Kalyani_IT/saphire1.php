@@ -27,7 +27,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric | SAPHIRE Now</title>
+    <title>Kalyani | SAPHIRE Now</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -104,10 +104,10 @@ $(document).ready(function(){
 			</div>
 			<div class="col-md-12">
 				<p>
-					Join NUMERIC TECH & co-exhibiting Partners at SAPPHIRE NOW & ASUG Annual Conference
+					Join Kalyani TECH & co-exhibiting Partners at SAPPHIRE NOW & ASUG Annual Conference
 Orlando, Florida, May 16-18, 2017
 <br><br>
-Stop by at the NUMERIC booth (#1387) and talk to our co-exhibiting partners and Numeric Tech about the topics that concern you most. Learn how Numeric Tech and partners help you achieve digital “warp speed” to an SAP environment by transforming your existing core infrastructure into an agile, secure, easy-to-manage technology platform 
+Stop by at the Kalyani booth (#1387) and talk to our co-exhibiting partners and Kalyani Tech about the topics that concern you most. Learn how Kalyani Tech and partners help you achieve digital “warp speed” to an SAP environment by transforming your existing core infrastructure into an agile, secure, easy-to-manage technology platform 
 that allows you to better compete and serve your customers in the digital economy.
 				</p>
 		</div>

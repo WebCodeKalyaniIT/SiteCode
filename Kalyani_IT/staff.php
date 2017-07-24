@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric | Staff Augmentation</title>
+    <title>Kalyani | Staff Augmentation</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -85,8 +85,8 @@ $(document).ready(function(){
 								<h3>STAFF AUGMENTATION</h3><br> 
 								<img src="img/staff.png">
 								 <div class="spacer-30"></div>
-								<h3 style="text-align:left;">Numeric Overview</h3> <br>
-								<p>Numeric Technologies is a Global IT Service & Solutions Provider specializing in:</p>
+								<h3 style="text-align:left;">Kalyani Overview</h3> <br>
+								<p>Kalyani Technologies is a Global IT Service & Solutions Provider specializing in:</p>
 								<ul class="overview-space" style="text-align:left;">
 									<li><a href="">Enterprise Applications</a></li>
 									<li><a href="">BIG - DATA Applications</a></li>
@@ -94,30 +94,30 @@ $(document).ready(function(){
 									<li><a href="">E - Commerce Solutions</a></li>
 									<li><a href="">Staffing & Augmentation</a></li>
 								</ul>
-								<p>Numeric Technologies provides Enterprise Solutions with a prime focus on <span class="ltr-color"><a href="">  ERP, &nbsp; &nbsp;Big-Data, &nbsp; Dashboard &nbsp; &amp; &nbsp; &nbsp;Analytics, &nbsp;&nbsp;E-Commerce, &nbsp; &nbsp; Staff Augmentation</a></span> and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
-								<p>Numeric is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Numeric maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Numeric delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
+								<p>Kalyani Technologies provides Enterprise Solutions with a prime focus on <span class="ltr-color"><a href="">  ERP, &nbsp; &nbsp;Big-Data, &nbsp; Dashboard &nbsp; &amp; &nbsp; &nbsp;Analytics, &nbsp;&nbsp;E-Commerce, &nbsp; &nbsp; Staff Augmentation</a></span> and related technologies. We have built the company with an emphasis on efficient processes and "Best Practice" methodologies that enables us to deliver high quality projects and resources to our clients. Our strong customer partnerships are based on our understanding of client needs, while our timely, reliable assistance and strong collaboration has allowed us to grow and serve our customers well.</p>
+								<p>Kalyani is a certified, dynamic organization with more than 20 years' experience and over 300 consultants globally. Headquartered in Warrenville, IL, Kalyani maintains additional offices in Miami, Silicon Valley, Luxembourg, UK & India to serve our customer's on and off-shore needs. Our customers include some of the world's largest and most demanding organizations who count on the Kalyani delivery model for a best in class experience. Our motto and mission is "Excellence in Price, Performance & Quality".</p>
 								<p>Some of our "niche" areas of expertise include an SAP Center of Excellence which includes top tier resources in the following disciplines of SAP: SAP HANA, SAP Business Objects, SAP Business Warehouse, SAP Business Intelligence, Enterprise Resource Planning(ERP), Enterprise Informational Management (EIM), Customer Resource Management (CRM), Human Capital Management (HCM) & Supply Chain Management (SCM)</p>
-								<p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Numeric Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
+								<p>We also provide the highest level of expertise in the latest technologies in BIG-DATA including SAP S/4HANA, Hadoop & Cloudera. We also design hybrid, on prem/off site cloud based solutions as well. Finally, we provide Digital Dashboard Innovation with such upper right quadrant technologies as Tableau, Lumira, Qlikview & Design Studio. Contact a Kalyani Representative today to schedule a no-cost online assessment of your specialized requirements.</p>
 								<p>We pride ourselves on providing the unique combination of Price, Performance & Quality better than anyone else - Mani Ranjendran President & CEO</p>
 								<div class="spacer-20"></div>	
-								<h3 style="text-align:left;">Numeric Advantage</h3> <br>
-								<h4 class="service-heading">NUMERIC TECHNOLOGIES: EMPOWERING BUSINESS</h4>
-								<p>Numeric is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
+								<h3 style="text-align:left;">Kalyani Advantage</h3> <br>
+								<h4 class="service-heading">Kalyani TECHNOLOGIES: EMPOWERING BUSINESS</h4>
+								<p>Kalyani is a global consulting company focused on niche areas of expertise in order to provide execution excellence and customer satisfaction through a unique blend of price, performance and quality. We invest in our clients to understand their requirements, allowing us to provide successful project implementation and/or resource placement to our customers' satisfaction.</p>
 								<div class="spacer-20"></div>	
 								<h4 class="service-heading">OUR GLOBAL CAPABILITIES, EXPERIENCE & SCALABILITY</h4>
-								<p>Numeric has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
+								<p>Kalyani has over 300 consultants worldwide, including over 200 in US/Canada and 100 in off-shore centers. We provide specialized, "right fit" resources that are ready on day one. Our consultants are professional, courteous and highly experienced. The majority of our consultants have an average of 15+ years of business experience, and at least 12+ years of ERP consulting experience.</p>
 								<div class="spacer-20"></div>	
 								<h4 class="service-heading">OUR CONSULTING STRATEGY - WE VALUE OUR PEOPLE</h4>
-								<p>Numeric maintains a large pool of consulting resources that can be mobilized on demand. Numeric ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
+								<p>Kalyani maintains a large pool of consulting resources that can be mobilized on demand. Kalyani ensures shadow resourcing across key areas, mitigating the risk of unforeseen staff changes. Internally, we provide extensive training for our consultants and compensate them some of the best rates in the industry. As a result, we enjoy a near perfect retention record.</p>
 								<div class="spacer-20"></div>	
 								<h4 class="service-heading">PERFORMANCE AND QUALITY, AT COMPETITIVE PRICES</h4>
-								<p>Numeric maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
+								<p>Kalyani maximizes service offerings for our customers by adapting to our clients' budget and time constraints in order to deliver the best services and solutions in the most timely and cost effective manner possible. Our low overhead, and flexible engagement model allows us to keep our costs low, as we pass these savings on to our valued clients.</p>
                                 <div class="spacer-20"></div>	
 								<h4 class="service-heading">FOCUSED ON CLIENT DELIVERY AND EXECUTION EXCELLENCE</h4>
-								<p>Numeric pursues execution excellence through a continued investment in knowledge, trends, tools, accelerators, thought leadership, alliances and infrastructure. We believe that each of these factors supports and ensures dependability and quality throughout our global practice, allowing us to deliver a higher level of customer satisfaction.</p>
+								<p>Kalyani pursues execution excellence through a continued investment in knowledge, trends, tools, accelerators, thought leadership, alliances and infrastructure. We believe that each of these factors supports and ensures dependability and quality throughout our global practice, allowing us to deliver a higher level of customer satisfaction.</p>
                                 <div class="spacer-20"></div>	
 								<h4 class="service-heading">CERTIFIED, U.S. BASED COMPANY WITH GLOBAL CAPABILITIES</h4>
-								<p>Numeric is a minority certified, diverse organization. This cultural diversity allows us to operate in other cultures across the globe. Our Global Delivery Model allows us to fulfill our client's dynamic, diverse and global project and resource requirements, allowing us to meet project milestones and placement milestone while minimizing the financial risk for our clients.</p>
+								<p>Kalyani is a minority certified, diverse organization. This cultural diversity allows us to operate in other cultures across the globe. Our Global Delivery Model allows us to fulfill our client's dynamic, diverse and global project and resource requirements, allowing us to meet project milestones and placement milestone while minimizing the financial risk for our clients.</p>
 							    <div>
 									  <img src="img/cert1.png" width="97" height="80" alt="cert1" class="cert-img"/> 
 									  <img src="img/cert2.png" width="97" height="80" class="cert-img"/> 

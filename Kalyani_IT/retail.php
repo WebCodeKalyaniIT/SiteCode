@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Numeric | Retail</title>
+    <title>Kalyani | Retail</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -116,14 +116,14 @@ $(document).ready(function(){
 <br/>
 <b>Profitability</b> – Increase the profitability by posting relevant prices  and attractive promotions.
 <br/><br/>						
-<b>Numeric Advantages</b>
+<b>Kalyani Advantages</b>
 <br/><br/>
 <ul>
  <li><i class="icon-check"></i>Proven experience in implementing SAP retail solutions.
 <li>
  <li><i class="icon-check"></i>Rapid development and deployment team to ensure on time deliverables.
 <li>
- <li><i class="icon-check"></i>Numeric does Historical assessment, used to detect and correct problems after the fact.
+ <li><i class="icon-check"></i>Kalyani does Historical assessment, used to detect and correct problems after the fact.
 <li>
  <li><i class="icon-check"></i>Vast knowledge and experience with numerous end-to-end scenarios<li>
 </ul>
